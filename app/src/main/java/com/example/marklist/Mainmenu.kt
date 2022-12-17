@@ -14,5 +14,10 @@ class Mainmenu : AppCompatActivity() {
         val arrayAdapter = ArrayAdapter(this,R.layout.spinner_list,classList)
         list.adapter = arrayAdapter
 
+        val sectionList = listOf("A","B","C")
+        val list2 = findViewById<Spinner>(R.id.section_spinner)
+        val arrayAdapter1 = ArrayAdapter(this,R.layout.spinner_list,sectionList)
+        list2.adapter = arrayAdapter1
+
     }
 }
