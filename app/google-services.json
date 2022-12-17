@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "483761760813",
+    "project_id": "marklist-e101f",
+    "storage_bucket": "marklist-e101f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483761760813:android:15fa2ff67a818f76eaa6a4",
+        "android_client_info": {
+          "package_name": "com.example.marklist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "483761760813-hi7cp0m7bok3l8kmsten77m7b56tgrpv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.marklist",
+            "certificate_hash": "84fb8e1d030261e820422a6c0cb64adf343c76b0"
+          }
+        },
+        {
+          "client_id": "483761760813-slhuus83f1q9b7hd8lj6hsugbu081nt3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEXX8HQFTUzXYxs6LUL27tLiWovlG7Z18"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "483761760813-slhuus83f1q9b7hd8lj6hsugbu081nt3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
