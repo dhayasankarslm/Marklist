@@ -4,4 +4,7 @@
     <string name="password">Password</string>
     <string name="signup">Sign In</string>
     <string name="logo">Logo</string>
+    <string name="classs">Class :</string>
+    <string name="section">Section :</string>
+    <string name="open">Open</string>
 </resources>
