@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Marklist</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="signup">SignUp</string>
+    <string name="logo">Logo</string>
 </resources>
