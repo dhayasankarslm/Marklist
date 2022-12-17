@@ -1,14 +1,19 @@
 package com.example.marklist
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.Spinner
 
 class Mainmenu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_mainmenu)
+
+        val enterClass = findViewById<Button>(R.id.button3)
+
         val classList = listOf("VI","VII","VIII","IX","X",)
         val list = findViewById<Spinner>(R.id.class_spinner)
         val arrayAdapter = ArrayAdapter(this,R.layout.spinner_list,classList)
@@ -19,5 +24,16 @@ class Mainmenu : AppCompatActivity() {
         val arrayAdapter1 = ArrayAdapter(this,R.layout.spinner_list,sectionList)
         list2.adapter = arrayAdapter1
 
+        var grade:String = "VI"
+        var section = "A"
+
+        enterClass.setOnClickListener {
+            grade = list.selectedItem.toString()
+            section = list.selectedItem.toString()
+            startActivity(Intent(this,StudentList::class.java).apply {
+                putExtra(grade,"grade")
+                putExtra(section,"section")
+            })
+        }
     }
 }

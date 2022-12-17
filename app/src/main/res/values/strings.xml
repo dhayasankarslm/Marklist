@@ -7,6 +7,7 @@
     <string name="classs">Class :</string>
     <string name="section">Section :</string>
     <string name="open">Open</string>
+    <string name="register">Register</string>
     <string-array name="classss">
         <item>VI</item>
         <item>VII</item>
