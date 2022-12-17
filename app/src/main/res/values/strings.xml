@@ -7,4 +7,17 @@
     <string name="classs">Class :</string>
     <string name="section">Section :</string>
     <string name="open">Open</string>
+    <string-array name="classss">
+        <item>VI</item>
+        <item>VII</item>
+        <item>VIII</item>
+        <item>IX</item>
+        <item>X</item>
+    </string-array>
+    <string-array name="section">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+    </string-array>
+
 </resources>
