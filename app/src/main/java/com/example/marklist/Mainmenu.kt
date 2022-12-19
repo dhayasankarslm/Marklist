@@ -29,11 +29,11 @@ class Mainmenu : AppCompatActivity() {
 
         enterClass.setOnClickListener {
             grade = list.selectedItem.toString()
-            section = list.selectedItem.toString()
-            startActivity(Intent(this,StudentList::class.java).apply {
-                putExtra(grade,"grade")
-                putExtra(section,"section")
-            })
+            section = list2.selectedItem.toString()
+            val intent = Intent(this,StudentList::class.java)
+            intent.putExtra("grade",grade)
+            intent.putExtra("section",section)
+            startActivity(intent)
         }
     }
 }
