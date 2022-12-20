@@ -10,4 +10,9 @@
     <color name="light_green">#7D8F69</color>
     <color name="dark_red">#FF6464</color>
     <color name="mild_green">#5F8D4E</color>
+    <color name="light_blue">#2F8F9D</color>
+    <color name="lightest_blue">#B3E8E5</color>
+    <color name="light_light_blue">#3BACB6</color>
+    <color name="light_light_light_blue">#82DBD8</color>
+    <color name="dark_blue">#1A374D</color>
 </resources>

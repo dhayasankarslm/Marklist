@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mild_green"
+    android:background="@color/light_blue"
     tools:context=".MainActivity">
 
     <ImageView
@@ -27,8 +27,8 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="50dp"
-        android:autofillHints="@string/username"
         android:background="@drawable/rounded_corner"
+        android:backgroundTint="@color/lightest_blue"
         android:ems="12"
         android:hint="@string/username"
         android:inputType="textPersonName"
@@ -65,6 +65,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/signup"
+        android:textStyle="bold"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="40dp"
